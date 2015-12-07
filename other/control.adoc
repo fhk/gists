@@ -6,306 +6,56 @@ The control graph from http://arxiv.org/pdf/1107.5728.pdf[Table S1: Top 50 contr
 
 [source,cypher]
 ----
-CREATE (entity:BARCLAYSPLC {Rank: "1",
-EconomicActorName: "BARCLAYS PLC",
-Country: "GB",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "4.05"})
-CREATE (entity:CAPITALGROUPCOMPANIESINC {Rank: "2",
-EconomicActorName: "CAPITAL GROUP COMPANIES INC",
-Country: "US",
-NACE code: "6713",
-Network position: "IN",
-Cumul. network control (TM %): "6.66"})
-CREATE (entity:FMRCORP {Rank: "3",
-EconomicActorName: "FMR CORP",
-Country: "US",
-NACE code: "6713",
-Network position: "IN",
-Cumul. network control (TM %): "8.94"})
-CREATE (entity:AXA {Rank: "4",
-EconomicActorName: "AXA",
-Country: "FR",
-NACE code: "6712",
-Network position: "SCC",
-Cumul. network control (TM %): "11.21"})
-CREATE (entity:STATESTREETCORPORATION {Rank: "5",
-EconomicActorName: "STATE STREET CORPORATION",
-Country: "US",
-NACE code: "6713",
-Network position: "SCC",
-Cumul. network control (TM %): "13.02"})
-CREATE (entity:JPMORGANCHASE {Rank: "6",
-EconomicActorName: "JPMORGAN CHASE",
-Country: "US",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "14.55"})
-CREATE (entity:LEGALGENERALGROUPPLC {Rank: "7",
-EconomicActorName: "LEGAL GENERAL GROUP PLC",
-Country: "GB",
-NACE code: "6603",
-Network position: "SCC",
-Cumul. network control (TM %): "16.02"})
-CREATE (entity:VANGUARDGROUPINC {Rank: "8",
-EconomicActorName: "VANGUARD GROUP INC",
-Country: "US",
-NACE code: "7415",
-Network position: "IN",
-Cumul. network control (TM %): "17.25"})
-CREATE (entity:UBSAG {Rank: "9",
-EconomicActorName: "UBS AG",
-Country: "CH",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "18.46"})
-CREATE (entity:MERRILLLYNCH {Rank: "10",
-EconomicActorName: "MERRILL LYNCH",
-Country: "US",
-NACE code: "6712",
-Network position: "SCC",
-Cumul. network control (TM %): "19.45"})
-CREATE (entity:WELLINGTONMANAGEMENTCO {Rank: "11",
-EconomicActorName: "WELLINGTON MANAGEMENT CO",
-Country: "US",
-NACE code: "6713",
-Network position: "IN",
-Cumul. network control (TM %): "20.33"})
-CREATE (entity:DEUTSCHEBANKAG {Rank: "12",
-EconomicActorName: "DEUTSCHE BANK AG",
-Country: "DE",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "21.17"})
-CREATE (entity:FRANKLINRESOURCESINC. {Rank: "13",
-EconomicActorName: "FRANKLIN RESOURCES INC.",
-Country: "US",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "21.99"})
-CREATE (entity:CREDITSUISSEGROUP {Rank: "14",
-EconomicActorName: "CREDIT SUISSE GROUP",
-Country: "CH",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "22.81"})
-CREATE (entity:WALTONENTERPRISESLLC {Rank: "15",
-EconomicActorName: "WALTON ENTERPRISES LLC",
-Country: "US",
-NACE code: "2923",
-Network position: "T&T",
-Cumul. network control (TM %): "23.56"})
-CREATE (entity:BANKOFNEWYORKMELLONCORP. {Rank: "16",
-EconomicActorName: "BANK OF NEW YORK MELLON CORP.",
-Country: "US",
-NACE code: "6512",
-Network position: "IN",
-Cumul. network control (TM %): "24.28"})
-CREATE (entity:NATIXIS {Rank: "17",
-EconomicActorName: "NATIXIS",
-Country: "FR",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "24.98"})
-CREATE (entity:GOLDMANSACHSGROUP {Rank: "18",
-EconomicActorName: "GOLDMAN SACHS GROUP",
-Country: "US",
-NACE code: "6712",
-Network position: "SCC",
-Cumul. network control (TM %): "25.64"})
-CREATE (entity:TROWEPRICEGROUPINC. {Rank: "19",
-EconomicActorName: "T ROWE PRICE GROUP INC.",
-Country: "US",
-NACE code: "6713",
-Network position: "SCC",
-Cumul. network control (TM %): "26.29"})
-CREATE (entity:LEGGMASON {Rank: "20",
-EconomicActorName: "LEGG MASON",
-Country: "US",
-NACE code: "6712",
-Network position: "SCC",
-Cumul. network control (TM %): "26.92"})
-CREATE (entity:MORGANSTANLEY {Rank: "21",
-EconomicActorName: "MORGAN STANLEY",
-Country: "US",
-NACE code: "6712",
-Network position: "SCC",
-Cumul. network control (TM %): "27.56"})
-CREATE (entity:MITSUBISHIUFJFINANCIALGROUP {Rank: "22",
-EconomicActorName: "MITSUBISHI UFJ FINANCIAL GROUP",
-Country: "JP",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "28.16"})
-CREATE (entity:NORTHERNTRUSTCORPORATION {Rank: "23",
-EconomicActorName: "NORTHERN TRUST CORPORATION",
-Country: "US",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "28.72"})
-CREATE (entity:SOCIETEGENERALE {Rank: "24",
-EconomicActorName: "SOCIETE GENERALE",
-Country: "FR",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "29.26"})
-CREATE (entity:BANKOFAMERICACORPORATION {Rank: "25",
-EconomicActorName: "BANK OF AMERICA CORPORATION",
-Country: "US",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "29.79"})
-CREATE (entity:LLOYDSTSBGROUPPLC {Rank: "26",
-EconomicActorName: "LLOYDS TSB GROUP PLC",
-Country: "GB",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "30.30"})
-CREATE (entity:INVESCOPLC {Rank: "27",
-EconomicActorName: "INVESCO PLC",
-Country: "GB",
-NACE code: "6523",
-Network position: "SCC",
-Cumul. network control (TM %): "30.82"})
-CREATE (entity:ALLIANZSE {Rank: "28",
-EconomicActorName: "ALLIANZ SE",
-Country: "DE",
-NACE code: "7415",
-Network position: "SCC",
-Cumul. network control (TM %): "31.32"})
-CREATE (entity:TIAA {Rank: "29",
-EconomicActorName: "TIAA",
-Country: "US",
-NACE code: "6601",
-Network position: "IN",
-Cumul. network control (TM %): "32.24"})
-CREATE (entity:OLDMUTUALPUBLICLIMITEDCOMPANY {Rank: "30",
-EconomicActorName: "OLD MUTUAL PUBLIC LIMITED COMPANY",
-Country: "GB",
-NACE code: "6601",
-Network position: "SCC",
-Cumul. network control (TM %): "32.69"})
-CREATE (entity:AVIVAPLC {Rank: "31",
-EconomicActorName: "AVIVA PLC",
-Country: "GB",
-NACE code: "6601",
-Network position: "SCC",
-Cumul. network control (TM %): "33.14"})
-CREATE (entity:SCHRODERSPLC {Rank: "32",
-EconomicActorName: "SCHRODERS PLC",
-Country: "GB",
-NACE code: "6712",
-Network position: "SCC",
-Cumul. network control (TM %): "33.57"})
-CREATE (entity:DODGECOX {Rank: "33",
-EconomicActorName: "DODGE COX",
-Country: "US",
-NACE code: "7415",
-Network position: "IN",
-Cumul. network control (TM %): "34.00"})
-CREATE (entity:LEHMANBROTHERSHOLDINGS {Rank: "34",
-EconomicActorName: "LEHMAN BROTHERS HOLDINGS",
-Country: "US",
-NACE code: "6712",
-Network position: "SCC",
-Cumul. network control (TM %): "34.43"})
-CREATE (entity:SUNLIFEFINANCIAL {Rank: "35",
-EconomicActorName: "SUN LIFE FINANCIAL",
-Country: "CA",
-NACE code: "6601",
-Network position: "SCC",
-Cumul. network control (TM %): "34.82"})
-CREATE (entity:STANDARDLIFEPLC {Rank: "36",
-EconomicActorName: "STANDARD LIFE PLC",
-Country: "GB",
-NACE code: "6601",
-Network position: "SC",
-Cumul. network control (TM %): "35.2"})
-CREATE (entity:CNCE {Rank: "37",
-EconomicActorName: "CNCE",
-Country: "FR",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "35.57"})
-CREATE (entity:NOMURAHOLDINGS {Rank: "38",
-EconomicActorName: "NOMURA HOLDINGS",
-Country: "JP",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "35.92"})
-CREATE (entity:THEDEPOSITORYTRUSTCOMPANY {Rank: "39",
-EconomicActorName: "THE DEPOSITORY TRUST COMPANY",
-Country: "US",
-NACE code: "6512",
-Network position: "IN",
-Cumul. network control (TM %): "36.28"})
-CREATE (entity:MASSACHUSETTSMUTUALLIFEINSUR {Rank: "40",
-EconomicActorName: "MASSACHUSETTS MUTUAL LIFE INSUR",
-Country: "US",
-NACE code: "6601",
-Network position: "IN",
-Cumul. network control (TM %): "36.63"})
-CREATE (entity:INGGROEPNV {Rank: "41",
-EconomicActorName: "ING GROEP NV",
-Country: "NL",
-NACE code: "6603",
-Network position: "SCC",
-Cumul. network control (TM %): "36.96"})
-CREATE (entity:BRANDESINVESTMENTPARTNERS {Rank: "42",
-EconomicActorName: "BRANDES INVESTMENT PARTNERS",
-Country: "US",
-NACE code: "6713",
-Network position: "IN",
-Cumul. network control (TM %): "37.29"})
-CREATE (entity:UNICREDITOITALIANOSPA {Rank: "43",
-EconomicActorName: "UNICREDITO ITALIANO SPA",
-Country: "IT",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "37.61"})
-CREATE (entity:DEPOSITINSURANCECORPORATIONOFJP {Rank: "44",
-EconomicActorName: "DEPOSIT INSURANCE CORPORATION OF JP",
-Country: "JP",
-NACE code: "6511",
-Network position: "IN",
-Cumul. network control (TM %): "37.93"})
-CREATE (entity:VERENIGINGAEGON {Rank: "45",
-EconomicActorName: "VERENIGING AEGON",
-Country: "NL",
-NACE code: "6512",
-Network position: "IN",
-Cumul. network control (TM %): "38.25"})
-CREATE (entity:BNPPARIBAS {Rank: "46",
-EconomicActorName: "BNP PARIBAS",
-Country: "FR",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "38.56"})
-CREATE (entity:AFFILIATEDMANAGERSGROUP {Rank: "47",
-EconomicActorName: "AFFILIATED MANAGERS GROUP",
-Country: "US",
-NACE code: "6713",
-Network position: "SCC",
-Cumul. network control (TM %): "38.88"})
-CREATE (entity:RESONAHOLDINGS {Rank: "48",
-EconomicActorName: "RESONA HOLDINGS",
-Country: "JP",
-NACE code: "6512",
-Network position: "SCC",
-Cumul. network control (TM %): "39.18"})
-CREATE (entity:CAPITALGROUPINTERNATIONAL {Rank: "49",
-EconomicActorName: "CAPITAL GROUP INTERNATIONAL",
-Country: "US",
-NACE code: "7414",
-Network position: "IN",
-Cumul. network control (TM %): "39.48"})
-CREATE (entity:CHINAPETROCHEMICALGROUPCO {Rank: "50",
-EconomicActorName: "CHINA PETROCHEMICAL GROUP CO",
-Country: "CN",
-NACE code: "6511",
-Network position: "TT",
-Cumul. network control (TM %): "39.78"})
+CREATE (entity:BARCLAYSPLC {Rank: "1", EconomicActorName: "BARCLAYS PLC", Country: "GB", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "4.05"})
+CREATE (entity:CAPITALGROUPCOMPANIESINC {Rank: "2", EconomicActorName: "CAPITAL GROUP COMPANIES INC", Country: "US", NACEcode: "6713", NetworkPosition: "IN", CumulNetworkControlTM: "6.66"})
+CREATE (entity:FMRCORP {Rank: "3", EconomicActorName: "FMR CORP", Country: "US", NACEcode: "6713", NetworkPosition: "IN", CumulNetworkControlTM: "8.94"})
+CREATE (entity:AXA {Rank: "4", EconomicActorName: "AXA", Country: "FR", NACEcode: "6712", NetworkPosition: "SCC", CumulNetworkControlTM: "11.21"})
+CREATE (entity:STATESTREETCORPORATION {Rank: "5", EconomicActorName: "STATE STREET CORPORATION", Country: "US", NACEcode: "6713", NetworkPosition: "SCC", CumulNetworkControlTM: "13.02"})
+CREATE (entity:JPMORGANCHASE {Rank: "6", EconomicActorName: "JPMORGAN CHASE", Country: "US", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "14.55"})
+CREATE (entity:LEGALGENERALGROUPPLC {Rank: "7", EconomicActorName: "LEGAL GENERAL GROUP PLC", Country: "GB", NACEcode: "6603", NetworkPosition: "SCC", CumulNetworkControlTM: "16.02"})
+CREATE (entity:VANGUARDGROUPINC {Rank: "8", EconomicActorName: "VANGUARD GROUP INC", Country: "US", NACEcode: "7415", NetworkPosition: "IN", CumulNetworkControlTM: "17.25"})
+CREATE (entity:UBSAG {Rank: "9", EconomicActorName: "UBS AG", Country: "CH", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "18.46"})
+CREATE (entity:MERRILLLYNCH {Rank: "10", EconomicActorName: "MERRILL LYNCH", Country: "US", NACEcode: "6712", NetworkPosition: "SCC", CumulNetworkControlTM: "19.45"})
+CREATE (entity:WELLINGTONMANAGEMENTCO {Rank: "11", EconomicActorName: "WELLINGTON MANAGEMENT CO", Country: "US", NACEcode: "6713", NetworkPosition: "IN", CumulNetworkControlTM: "20.33"})
+CREATE (entity:DEUTSCHEBANKAG {Rank: "12", EconomicActorName: "DEUTSCHE BANK AG", Country: "DE", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "21.17"})
+CREATE (entity:FRANKLINRESOURCESINC. {Rank: "13", EconomicActorName: "FRANKLIN RESOURCES INC.", Country: "US", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "21.99"})
+CREATE (entity:CREDITSUISSEGROUP {Rank: "14", EconomicActorName: "CREDIT SUISSE GROUP", Country: "CH", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "22.81"})
+CREATE (entity:WALTONENTERPRISESLLC {Rank: "15", EconomicActorName: "WALTON ENTERPRISES LLC", Country: "US", NACEcode: "2923", NetworkPosition: "T&T", CumulNetworkControlTM: "23.56"})
+CREATE (entity:BANKOFNEWYORKMELLONCORP. {Rank: "16", EconomicActorName: "BANK OF NEW YORK MELLON CORP.", Country: "US", NACEcode: "6512", NetworkPosition: "IN", CumulNetworkControlTM: "24.28"})
+CREATE (entity:NATIXIS {Rank: "17", EconomicActorName: "NATIXIS", Country: "FR", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "24.98"})
+CREATE (entity:GOLDMANSACHSGROUP {Rank: "18", EconomicActorName: "GOLDMAN SACHS GROUP", Country: "US", NACEcode: "6712", NetworkPosition: "SCC", CumulNetworkControlTM: "25.64"})
+CREATE (entity:TROWEPRICEGROUPINC. {Rank: "19", EconomicActorName: "T ROWE PRICE GROUP INC.", Country: "US", NACEcode: "6713", NetworkPosition: "SCC", CumulNetworkControlTM: "26.29"})
+CREATE (entity:LEGGMASON {Rank: "20", EconomicActorName: "LEGG MASON", Country: "US", NACEcode: "6712", NetworkPosition: "SCC", CumulNetworkControlTM: "26.92"})
+CREATE (entity:MORGANSTANLEY {Rank: "21", EconomicActorName: "MORGAN STANLEY", Country: "US", NACEcode: "6712", NetworkPosition: "SCC", CumulNetworkControlTM: "27.56"})
+CREATE (entity:MITSUBISHIUFJFINANCIALGROUP {Rank: "22", EconomicActorName: "MITSUBISHI UFJ FINANCIAL GROUP", Country: "JP", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "28.16"})
+CREATE (entity:NORTHERNTRUSTCORPORATION {Rank: "23", EconomicActorName: "NORTHERN TRUST CORPORATION", Country: "US", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "28.72"})
+CREATE (entity:SOCIETEGENERALE {Rank: "24", EconomicActorName: "SOCIETE GENERALE", Country: "FR", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "29.26"})
+CREATE (entity:BANKOFAMERICACORPORATION {Rank: "25", EconomicActorName: "BANK OF AMERICA CORPORATION", Country: "US", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "29.79"})
+CREATE (entity:LLOYDSTSBGROUPPLC {Rank: "26", EconomicActorName: "LLOYDS TSB GROUP PLC", Country: "GB", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "30.30"})
+CREATE (entity:INVESCOPLC {Rank: "27", EconomicActorName: "INVESCO PLC", Country: "GB", NACEcode: "6523", NetworkPosition: "SCC", CumulNetworkControlTM: "30.82"})
+CREATE (entity:ALLIANZSE {Rank: "28", EconomicActorName: "ALLIANZ SE", Country: "DE", NACEcode: "7415", NetworkPosition: "SCC", CumulNetworkControlTM: "31.32"})
+CREATE (entity:TIAA {Rank: "29", EconomicActorName: "TIAA", Country: "US", NACEcode: "6601", NetworkPosition: "IN", CumulNetworkControlTM: "32.24"})
+CREATE (entity:OLDMUTUALPUBLICLIMITEDCOMPANY {Rank: "30", EconomicActorName: "OLD MUTUAL PUBLIC LIMITED COMPANY", Country: "GB", NACEcode: "6601", NetworkPosition: "SCC", CumulNetworkControlTM: "32.69"})
+CREATE (entity:AVIVAPLC {Rank: "31", EconomicActorName: "AVIVA PLC", Country: "GB", NACEcode: "6601", NetworkPosition: "SCC", CumulNetworkControlTM: "33.14"})
+CREATE (entity:SCHRODERSPLC {Rank: "32", EconomicActorName: "SCHRODERS PLC", Country: "GB", NACEcode: "6712", NetworkPosition: "SCC", CumulNetworkControlTM: "33.57"})
+CREATE (entity:DODGECOX {Rank: "33", EconomicActorName: "DODGE COX", Country: "US", NACEcode: "7415", NetworkPosition: "IN", CumulNetworkControlTM: "34.00"})
+CREATE (entity:LEHMANBROTHERSHOLDINGS {Rank: "34", EconomicActorName: "LEHMAN BROTHERS HOLDINGS", Country: "US", NACEcode: "6712", NetworkPosition: "SCC", CumulNetworkControlTM: "34.43"})
+CREATE (entity:SUNLIFEFINANCIAL {Rank: "35", EconomicActorName: "SUN LIFE FINANCIAL", Country: "CA", NACEcode: "6601", NetworkPosition: "SCC", CumulNetworkControlTM: "34.82"})
+CREATE (entity:STANDARDLIFEPLC {Rank: "36", EconomicActorName: "STANDARD LIFE PLC", Country: "GB", NACEcode: "6601", NetworkPosition: "SC", CumulNetworkControlTM: "35.2"})
+CREATE (entity:CNCE {Rank: "37", EconomicActorName: "CNCE", Country: "FR", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "35.57"})
+CREATE (entity:NOMURAHOLDINGS {Rank: "38", EconomicActorName: "NOMURA HOLDINGS", Country: "JP", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "35.92"})
+CREATE (entity:THEDEPOSITORYTRUSTCOMPANY {Rank: "39", EconomicActorName: "THE DEPOSITORY TRUST COMPANY", Country: "US", NACEcode: "6512", NetworkPosition: "IN", CumulNetworkControlTM: "36.28"})
+CREATE (entity:MASSACHUSETTSMUTUALLIFEINSUR {Rank: "40", EconomicActorName: "MASSACHUSETTS MUTUAL LIFE INSUR", Country: "US", NACEcode: "6601", NetworkPosition: "IN", CumulNetworkControlTM: "36.63"})
+CREATE (entity:INGGROEPNV {Rank: "41", EconomicActorName: "ING GROEP NV", Country: "NL", NACEcode: "6603", NetworkPosition: "SCC", CumulNetworkControlTM: "36.96"})
+CREATE (entity:BRANDESINVESTMENTPARTNERS {Rank: "42", EconomicActorName: "BRANDES INVESTMENT PARTNERS", Country: "US", NACEcode: "6713", NetworkPosition: "IN", CumulNetworkControlTM: "37.29"})
+CREATE (entity:UNICREDITOITALIANOSPA {Rank: "43", EconomicActorName: "UNICREDITO ITALIANO SPA", Country: "IT", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "37.61"})
+CREATE (entity:DEPOSITINSURANCECORPORATIONOFJP {Rank: "44", EconomicActorName: "DEPOSIT INSURANCE CORPORATION OF JP", Country: "JP", NACEcode: "6511", NetworkPosition: "IN", CumulNetworkControlTM: "37.93"})
+CREATE (entity:VERENIGINGAEGON {Rank: "45", EconomicActorName: "VERENIGING AEGON", Country: "NL", NACEcode: "6512", NetworkPosition: "IN", CumulNetworkControlTM: "38.25"})
+CREATE (entity:BNPPARIBAS {Rank: "46", EconomicActorName: "BNP PARIBAS", Country: "FR", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "38.56"})
+CREATE (entity:AFFILIATEDMANAGERSGROUP {Rank: "47", EconomicActorName: "AFFILIATED MANAGERS GROUP", Country: "US", NACEcode: "6713", NetworkPosition: "SCC", CumulNetworkControlTM: "38.88"})
+CREATE (entity:RESONAHOLDINGS {Rank: "48", EconomicActorName: "RESONA HOLDINGS", Country: "JP", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "39.18"})
+CREATE (entity:CAPITALGROUPINTERNATIONAL {Rank: "49", EconomicActorName: "CAPITAL GROUP INTERNATIONAL", Country: "US", NACEcode: "7414", NetworkPosition: "IN", CumulNetworkControlTM: "39.48"})
+CREATE (entity:CHINAPETROCHEMICALGROUPCO {Rank: "50", EconomicActorName: "CHINA PETROCHEMICAL GROUP CO", Country: "CN", NACEcode: "6511", NetworkPosition: "TT", CumulNetworkControlTM: "39.78"})
 CREATE (country:FR)
 CREATE (country:CH)
 CREATE (country:NL)

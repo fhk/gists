@@ -18,7 +18,7 @@ CREATE (entity:UBSAG {Rank: "9", EconomicActorName: "UBS AG", Country: "CH", NAC
 CREATE (entity:MERRILLLYNCH {Rank: "10", EconomicActorName: "MERRILL LYNCH", Country: "US", NACEcode: "6712", NetworkPosition: "SCC", CumulNetworkControlTM: "19.45"})
 CREATE (entity:WELLINGTONMANAGEMENTCO {Rank: "11", EconomicActorName: "WELLINGTON MANAGEMENT CO", Country: "US", NACEcode: "6713", NetworkPosition: "IN", CumulNetworkControlTM: "20.33"})
 CREATE (entity:DEUTSCHEBANKAG {Rank: "12", EconomicActorName: "DEUTSCHE BANK AG", Country: "DE", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "21.17"})
-CREATE (entity:FRANKLINRESOURCESINC. {Rank: "13", EconomicActorName: "FRANKLIN RESOURCES INC.", Country: "US", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "21.99"})
+CREATE (entity:FRANKLINRESOURCESINC {Rank: "13", EconomicActorName: "FRANKLIN RESOURCES INC", Country: "US", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "21.99"})
 CREATE (entity:CREDITSUISSEGROUP {Rank: "14", EconomicActorName: "CREDIT SUISSE GROUP", Country: "CH", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "22.81"})
 CREATE (entity:WALTONENTERPRISESLLC {Rank: "15", EconomicActorName: "WALTON ENTERPRISES LLC", Country: "US", NACEcode: "2923", NetworkPosition: "T&T", CumulNetworkControlTM: "23.56"})
 CREATE (entity:BANKOFNEWYORKMELLONCORP. {Rank: "16", EconomicActorName: "BANK OF NEW YORK MELLON CORP.", Country: "US", NACEcode: "6512", NetworkPosition: "IN", CumulNetworkControlTM: "24.28"})
@@ -78,7 +78,7 @@ CREATE (UBSAG)-[:IS_IN]->CH
 CREATE (MERRILLLYNCH)-[:IS_IN]->US
 CREATE (WELLINGTONMANAGEMENTCO)-[:IS_IN]->US
 CREATE (DEUTSCHEBANKAG)-[:IS_IN]->DE
-CREATE (FRANKLINRESOURCESINC.)-[:IS_IN]->US
+CREATE (FRANKLINRESOURCESINC)-[:IS_IN]->US
 CREATE (CREDITSUISSEGROUP)-[:IS_IN]->CH
 CREATE (WALTONENTERPRISESLLC)-[:IS_IN]->US
 CREATE (BANKOFNEWYORKMELLONCORP.)-[:IS_IN]->US

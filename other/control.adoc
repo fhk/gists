@@ -24,7 +24,7 @@ CREATE (entity:WALTONENTERPRISESLLC {Rank: "15", EconomicActorName: "WALTON ENTE
 CREATE (entity:BANKOFNEWYORKMELLONCORP {Rank: "16", EconomicActorName: "BANK OF NEW YORK MELLON CORP", Country: "US", NACEcode: "6512", NetworkPosition: "IN", CumulNetworkControlTM: "24.28"})
 CREATE (entity:NATIXIS {Rank: "17", EconomicActorName: "NATIXIS", Country: "FR", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "24.98"})
 CREATE (entity:GOLDMANSACHSGROUP {Rank: "18", EconomicActorName: "GOLDMAN SACHS GROUP", Country: "US", NACEcode: "6712", NetworkPosition: "SCC", CumulNetworkControlTM: "25.64"})
-CREATE (entity:TROWEPRICEGROUPINC. {Rank: "19", EconomicActorName: "T ROWE PRICE GROUP INC.", Country: "US", NACEcode: "6713", NetworkPosition: "SCC", CumulNetworkControlTM: "26.29"})
+CREATE (entity:TROWEPRICEGROUPINC {Rank: "19", EconomicActorName: "T ROWE PRICE GROUP INC", Country: "US", NACEcode: "6713", NetworkPosition: "SCC", CumulNetworkControlTM: "26.29"})
 CREATE (entity:LEGGMASON {Rank: "20", EconomicActorName: "LEGG MASON", Country: "US", NACEcode: "6712", NetworkPosition: "SCC", CumulNetworkControlTM: "26.92"})
 CREATE (entity:MORGANSTANLEY {Rank: "21", EconomicActorName: "MORGAN STANLEY", Country: "US", NACEcode: "6712", NetworkPosition: "SCC", CumulNetworkControlTM: "27.56"})
 CREATE (entity:MITSUBISHIUFJFINANCIALGROUP {Rank: "22", EconomicActorName: "MITSUBISHI UFJ FINANCIAL GROUP", Country: "JP", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "28.16"})
@@ -84,7 +84,7 @@ CREATE (WALTONENTERPRISESLLC)-[:IS_IN]->US
 CREATE (BANKOFNEWYORKMELLONCORP)-[:IS_IN]->US
 CREATE (NATIXIS)-[:IS_IN]->FR
 CREATE (GOLDMANSACHSGROUP)-[:IS_IN]->US
-CREATE (TROWEPRICEGROUPINC.)-[:IS_IN]->US
+CREATE (TROWEPRICEGROUPINC)-[:IS_IN]->US
 CREATE (LEGGMASON)-[:IS_IN]->US
 CREATE (MORGANSTANLEY)-[:IS_IN]->US
 CREATE (MITSUBISHIUFJFINANCIALGROUP)-[:IS_IN]->JP

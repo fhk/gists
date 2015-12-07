@@ -117,5 +117,6 @@ CREATE _57-[:`LINK_TO`]->_5
 CREATE _58-[:`LINK_TO`]->_40
 CREATE _59-[:`LINK_TO`]->_51
 
-RETURN *
+MATCH (n)
+RETURN n
 ----

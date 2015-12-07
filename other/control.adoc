@@ -21,7 +21,7 @@ CREATE (entity:DEUTSCHEBANKAG {Rank: "12", EconomicActorName: "DEUTSCHE BANK AG"
 CREATE (entity:FRANKLINRESOURCESINC {Rank: "13", EconomicActorName: "FRANKLIN RESOURCES INC", Country: "US", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "21.99"})
 CREATE (entity:CREDITSUISSEGROUP {Rank: "14", EconomicActorName: "CREDIT SUISSE GROUP", Country: "CH", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "22.81"})
 CREATE (entity:WALTONENTERPRISESLLC {Rank: "15", EconomicActorName: "WALTON ENTERPRISES LLC", Country: "US", NACEcode: "2923", NetworkPosition: "T&T", CumulNetworkControlTM: "23.56"})
-CREATE (entity:BANKOFNEWYORKMELLONCORP. {Rank: "16", EconomicActorName: "BANK OF NEW YORK MELLON CORP.", Country: "US", NACEcode: "6512", NetworkPosition: "IN", CumulNetworkControlTM: "24.28"})
+CREATE (entity:BANKOFNEWYORKMELLONCORP {Rank: "16", EconomicActorName: "BANK OF NEW YORK MELLON CORP", Country: "US", NACEcode: "6512", NetworkPosition: "IN", CumulNetworkControlTM: "24.28"})
 CREATE (entity:NATIXIS {Rank: "17", EconomicActorName: "NATIXIS", Country: "FR", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "24.98"})
 CREATE (entity:GOLDMANSACHSGROUP {Rank: "18", EconomicActorName: "GOLDMAN SACHS GROUP", Country: "US", NACEcode: "6712", NetworkPosition: "SCC", CumulNetworkControlTM: "25.64"})
 CREATE (entity:TROWEPRICEGROUPINC. {Rank: "19", EconomicActorName: "T ROWE PRICE GROUP INC.", Country: "US", NACEcode: "6713", NetworkPosition: "SCC", CumulNetworkControlTM: "26.29"})
@@ -81,7 +81,7 @@ CREATE (DEUTSCHEBANKAG)-[:IS_IN]->DE
 CREATE (FRANKLINRESOURCESINC)-[:IS_IN]->US
 CREATE (CREDITSUISSEGROUP)-[:IS_IN]->CH
 CREATE (WALTONENTERPRISESLLC)-[:IS_IN]->US
-CREATE (BANKOFNEWYORKMELLONCORP.)-[:IS_IN]->US
+CREATE (BANKOFNEWYORKMELLONCORP)-[:IS_IN]->US
 CREATE (NATIXIS)-[:IS_IN]->FR
 CREATE (GOLDMANSACHSGROUP)-[:IS_IN]->US
 CREATE (TROWEPRICEGROUPINC.)-[:IS_IN]->US

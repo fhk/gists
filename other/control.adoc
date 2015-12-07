@@ -1,0 +1,113 @@
+Control Network
+===
+
+REATE (_0 {`Country`:"JP", `Cumul. network control (TM %)`:"39.18", `EconomicActorName`:"RESONA HOLDINGS", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"48"})
+CREATE (_1 {`Country`:"FR"})
+CREATE (_2 {`Country`:"US", `Cumul. network control (TM %)`:"6.66", `EconomicActorName`:"CAPITAL GROUP COMPANIES INC", `NACE code`:"6713", `Network position`:"IN", `Rank`:"2"})
+CREATE (_3 {`Country`:"IT", `Cumul. network control (TM %)`:"37.61", `EconomicActorName`:"UNICREDITO ITALIANO SPA", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"43"})
+CREATE (_4 {`Country`:"DE"})
+CREATE (_5 {`Country`:"JP"})
+CREATE (_6 {`Country`:"US", `Cumul. network control (TM %)`:"14.55", `EconomicActorName`:"JPMORGAN CHASE & CO.", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"6"})
+CREATE (_7 {`Country`:"CA", `Cumul. network control (TM %)`:"34.82", `EconomicActorName`:"SUN LIFE FINANCIAL", `NACE code`:"6601", `Network position`:"SCC", `Rank`:"35"})
+CREATE (_8 {`Country`:"GB", `Cumul. network control (TM %)`:"33.57", `EconomicActorName`:"SCHRODERS PLC", `NACE code`:"6712", `Network position`:"SCC", `Rank`:"32"})
+CREATE (_9 {`Country`:"GB", `Cumul. network control (TM %)`:"32.69", `EconomicActorName`:"OLD MUTUAL PUBLIC LIMITED COMPANY", `NACE code`:"6601", `Network position`:"SCC", `Rank`:"30"})
+CREATE (_10 {`Country`:"FR", `Cumul. network control (TM %)`:"11.21", `EconomicActorName`:"AXA", `NACE code`:"6712", `Network position`:"SCC", `Rank`:"4"})
+CREATE (_11 {`Country`:"US", `Cumul. network control (TM %)`:"26.92", `EconomicActorName`:"LEGG MASON INC.", `NACE code`:"6712", `Network position`:"SCC", `Rank`:"20"})
+CREATE (_12 {`Country`:"NL", `Cumul. network control (TM %)`:"36.96", `EconomicActorName`:"ING GROEP N.V.", `NACE code`:"6603", `Network position`:"SCC", `Rank`:"41"})
+CREATE (_13 {`Country`:"DE", `Cumul. network control (TM %)`:"31.32", `EconomicActorName`:"ALLIANZ SE", `NACE code`:"7415", `Network position`:"SCC", `Rank`:"28"})
+CREATE (_14 {`Country`:"US", `Cumul. network control (TM %)`:"13.02", `EconomicActorName`:"STATE STREET CORPORATION", `NACE code`:"6713", `Network position`:"SCC", `Rank`:"5"})
+CREATE (_15 {`Country`:"NL", `Cumul. network control (TM %)`:"38.25", `EconomicActorName`:"VERENIGING AEGON", `NACE code`:"6512", `Network position`:"IN", `Rank`:"45"})
+CREATE (_16 {`Country`:"US", `Cumul. network control (TM %)`:"34.43", `EconomicActorName`:"LEHMAN BROTHERS HOLDINGS", `NACE code`:"6712", `Network position`:"SCC", `Rank`:"34"})
+CREATE (_17 {`Country`:"US", `Cumul. network control (TM %)`:"32.24", `EconomicActorName`:"TIAA", `NACE code`:"6601", `Network position`:"IN", `Rank`:"29"})
+CREATE (_18 {`Country`:"US", `Cumul. network control (TM %)`:"27.56", `EconomicActorName`:"MORGAN STANLEY", `NACE code`:"6712", `Network position`:"SCC", `Rank`:"21"})
+CREATE (_19 {`Country`:"US", `Cumul. network control (TM %)`:"19.45", `EconomicActorName`:"MERRILL LYNCH & CO. INC.", `NACE code`:"6712", `Network position`:"SCC", `Rank`:"10"})
+CREATE (_20 {`Country`:"NL"})
+CREATE (_21 {`Country`:"JP", `Cumul. network control (TM %)`:"37.93", `EconomicActorName`:"DEPOSIT INSURANCE CORPORATION OF JP", `NACE code`:"6511", `Network position`:"IN", `Rank`:"44"})
+CREATE (_22 {`Country`:"CH", `Cumul. network control (TM %)`:"18.46", `EconomicActorName`:"UBS AG", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"9"})
+CREATE (_23 {`Country`:"JP", `Cumul. network control (TM %)`:"35.92", `EconomicActorName`:"NOMURA HOLDINGS", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"38"})
+CREATE (_24 {`Country`:"GB", `Cumul. network control (TM %)`:"33.14", `EconomicActorName`:"AVIVA PLC", `NACE code`:"6601", `Network position`:"SCC", `Rank`:"31"})
+CREATE (_25 {`Country`:"FR", `Cumul. network control (TM %)`:"29.26", `EconomicActorName`:"SOCIETE GENERALE", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"24"})
+CREATE (_26 {`Country`:"US", `Cumul. network control (TM %)`:"23.56", `EconomicActorName`:"WALTON ENTERPRISES LLC", `NACE code`:"2923", `Network position`:"T&T", `Rank`:"15"})
+CREATE (_27 {`Country`:"US", `Cumul. network control (TM %)`:"20.33", `EconomicActorName`:"WELLINGTON MANAGEMENT CO. L.L.P.", `NACE code`:"6713", `Network position`:"IN", `Rank`:"11"})
+CREATE (_28 {`Country`:"GB", `Cumul. network control (TM %)`:"4.05", `EconomicActorName`:"BARCLAYS PLC", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"1"})
+CREATE (_29 {`Country`:"US", `Cumul. network control (TM %)`:"26.29", `EconomicActorName`:"T. ROWE PRICE GROUP INC.", `NACE code`:"6713", `Network position`:"SCC", `Rank`:"19"})
+CREATE (_30 {`Country`:"CH"})
+CREATE (_31 {`Country`:"US", `Cumul. network control (TM %)`:"28.72", `EconomicActorName`:"NORTHERN TRUST CORPORATION", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"23"})
+CREATE (_32 {`Country`:"US", `Cumul. network control (TM %)`:"36.63", `EconomicActorName`:"MASSACHUSETTS MUTUAL LIFE INSUR.", `NACE code`:"6601", `Network position`:"IN", `Rank`:"40"})
+CREATE (_33 {`Country`:"CN"})
+CREATE (_34 {`Country`:"US", `Cumul. network control (TM %)`:"21.99", `EconomicActorName`:"FRANKLIN RESOURCES INC.", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"13"})
+CREATE (_35 {`Country`:"CA"})
+CREATE (_36 {`Country`:"GB", `Cumul. network control (TM %)`:"30.82", `EconomicActorName`:"INVESCO PLC", `NACE code`:"6523", `Network position`:"SCC", `Rank`:"27"})
+CREATE (_37 {`Country`:"IT"})
+CREATE (_38 {`Country`:"US", `Cumul. network control (TM %)`:"39.48", `EconomicActorName`:"CAPITAL GROUP INTERNATIONAL", `NACE code`:"7414", `Network position`:"IN", `Rank`:"49"})
+CREATE (_39 {`Country`:"CN", `Cumul. network control (TM %)`:"39.78", `EconomicActorName`:"CHINA PETROCHEMICAL GROUP CO.", `NACE code`:"6511", `Network position`:"T&T", `Rank`:"50"})
+CREATE (_40 {`Country`:"GB"})
+CREATE (_41 {`Country`:"GB", `Cumul. network control (TM %)`:"16.02", `EconomicActorName`:"LEGAL & GENERAL GROUP PLC", `NACE code`:"6603", `Network position`:"SCC", `Rank`:"7"})
+CREATE (_42 {`Country`:"US", `Cumul. network control (TM %)`:"17.25", `EconomicActorName`:"VANGUARD GROUP INC.", `NACE code`:"7415", `Network position`:"IN", `Rank`:"8"})
+CREATE (_43 {`Country`:"FR", `Cumul. network control (TM %)`:"24.98", `EconomicActorName`:"NATIXIS", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"17"})
+CREATE (_44 {`Country`:"US", `Cumul. network control (TM %)`:"36.28", `EconomicActorName`:"THE DEPOSITORY TRUST COMPANY", `NACE code`:"6512", `Network position`:"IN", `Rank`:"39"})
+CREATE (_45 {`Country`:"DE", `Cumul. network control (TM %)`:"21.17", `EconomicActorName`:"DEUTSCHE BANK AG", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"12"})
+CREATE (_46 {`Country`:"US", `Cumul. network control (TM %)`:"38.88", `EconomicActorName`:"AFFILIATED MANAGERS GROUP", `NACE code`:"6713", `Network position`:"SCC", `Rank`:"47"})
+CREATE (_47 {`Country`:"US", `Cumul. network control (TM %)`:"37.29", `EconomicActorName`:"BRANDES INVESTMENT PARTNERS", `NACE code`:"6713", `Network position`:"IN", `Rank`:"42"})
+CREATE (_48 {`Country`:"US", `Cumul. network control (TM %)`:"8.94", `EconomicActorName`:"FMR CORP", `NACE code`:"6713", `Network position`:"IN", `Rank`:"3"})
+CREATE (_49 {`Country`:"FR", `Cumul. network control (TM %)`:"35.57", `EconomicActorName`:"CNCE", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"37"})
+CREATE (_50 {`Country`:"CH", `Cumul. network control (TM %)`:"22.81", `EconomicActorName`:"CREDIT SUISSE GROUP", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"14"})
+CREATE (_51 {`Country`:"US"})
+CREATE (_52 {`Country`:"FR", `Cumul. network control (TM %)`:"38.56", `EconomicActorName`:"BNP PARIBAS", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"46"})
+CREATE (_53 {`Country`:"US", `Cumul. network control (TM %)`:"29.79", `EconomicActorName`:"BANK OF AMERICA CORPORATION", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"25"})
+CREATE (_54 {`Country`:"GB", `Cumul. network control (TM %)`:"35.2", `EconomicActorName`:"STANDARD LIFE PLC", `NACE code`:"6601", `Network position`:"SC", `Rank`:"36"})
+CREATE (_55 {`Country`:"US", `Cumul. network control (TM %)`:"24.28", `EconomicActorName`:"BANK OF NEW YORK MELLON CORP.", `NACE code`:"6512", `Network position`:"IN", `Rank`:"16"})
+CREATE (_56 {`Country`:"US", `Cumul. network control (TM %)`:"25.64", `EconomicActorName`:"GOLDMAN SACHS GROUP INC.", `NACE code`:"6712", `Network position`:"SCC", `Rank`:"18"})
+CREATE (_57 {`Country`:"JP", `Cumul. network control (TM %)`:"28.16", `EconomicActorName`:"MITSUBISHI UFJ FINANCIAL GROUP", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"22"})
+CREATE (_58 {`Country`:"GB", `Cumul. network control (TM %)`:"30.30", `EconomicActorName`:"LLOYDS TSB GROUP PLC", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"26"})
+CREATE (_59 {`Country`:"US", `Cumul. network control (TM %)`:"34.00", `EconomicActorName`:"DODGE & COX", `NACE code`:"7415", `Network position`:"IN", `Rank`:"33"})
+CREATE _0-[:`LINK_TO`]->_5
+CREATE _2-[:`LINK_TO`]->_51
+CREATE _3-[:`LINK_TO`]->_37
+CREATE _6-[:`LINK_TO`]->_51
+CREATE _7-[:`LINK_TO`]->_35
+CREATE _8-[:`LINK_TO`]->_40
+CREATE _9-[:`LINK_TO`]->_40
+CREATE _10-[:`LINK_TO`]->_1
+CREATE _11-[:`LINK_TO`]->_51
+CREATE _12-[:`LINK_TO`]->_20
+CREATE _13-[:`LINK_TO`]->_4
+CREATE _14-[:`LINK_TO`]->_51
+CREATE _15-[:`LINK_TO`]->_20
+CREATE _16-[:`LINK_TO`]->_51
+CREATE _17-[:`LINK_TO`]->_51
+CREATE _18-[:`LINK_TO`]->_51
+CREATE _19-[:`LINK_TO`]->_51
+CREATE _21-[:`LINK_TO`]->_5
+CREATE _22-[:`LINK_TO`]->_30
+CREATE _23-[:`LINK_TO`]->_5
+CREATE _24-[:`LINK_TO`]->_40
+CREATE _25-[:`LINK_TO`]->_1
+CREATE _26-[:`LINK_TO`]->_51
+CREATE _27-[:`LINK_TO`]->_51
+CREATE _28-[:`LINK_TO`]->_40
+CREATE _29-[:`LINK_TO`]->_51
+CREATE _31-[:`LINK_TO`]->_51
+CREATE _32-[:`LINK_TO`]->_51
+CREATE _34-[:`LINK_TO`]->_51
+CREATE _36-[:`LINK_TO`]->_40
+CREATE _38-[:`LINK_TO`]->_51
+CREATE _39-[:`LINK_TO`]->_33
+CREATE _41-[:`LINK_TO`]->_40
+CREATE _42-[:`LINK_TO`]->_51
+CREATE _43-[:`LINK_TO`]->_1
+CREATE _44-[:`LINK_TO`]->_51
+CREATE _45-[:`LINK_TO`]->_4
+CREATE _46-[:`LINK_TO`]->_51
+CREATE _47-[:`LINK_TO`]->_51
+CREATE _48-[:`LINK_TO`]->_51
+CREATE _49-[:`LINK_TO`]->_1
+CREATE _50-[:`LINK_TO`]->_30
+CREATE _52-[:`LINK_TO`]->_1
+CREATE _53-[:`LINK_TO`]->_51
+CREATE _54-[:`LINK_TO`]->_40
+CREATE _55-[:`LINK_TO`]->_51
+CREATE _56-[:`LINK_TO`]->_51
+CREATE _57-[:`LINK_TO`]->_5
+CREATE _58-[:`LINK_TO`]->_40
+CREATE _59-[:`LINK_TO`]->_51

@@ -2,7 +2,7 @@
 
 The control graph from http://arxiv.org/pdf/1107.5728.pdf[Table S1: Top 50 control-holders](1)
 
-(1)The network of global corporate control - Stefania Vitali1, James B. Glattfelder1, and Stefano Battiston
+(1)The network of global corporate control - Stefania Vitali, James B. Glattfelder, and Stefano Battiston
 
 [source,cypher]
 ----

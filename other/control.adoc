@@ -56,16 +56,16 @@ CREATE (AFFILIATEDMANAGERSGROUP:Entity {Rank: "47", EconomicActorName: "AFFILIAT
 CREATE (RESONAHOLDINGS:Entity {Rank: "48", EconomicActorName: "RESONA HOLDINGS", Country: "JP", NACEcode: "6512", NetworkPosition: "SCC", CumulNetworkControlTM: "39.18", name: "RESONAHOLDINGS"})
 CREATE (CAPITALGROUPINTERNATIONAL:Entity {Rank: "49", EconomicActorName: "CAPITAL GROUP INTERNATIONAL", Country: "US", NACEcode: "7414", NetworkPosition: "IN", CumulNetworkControlTM: "39.48", name: "CAPITALGROUPINTERNATIONAL"})
 CREATE (CHINAPETROCHEMICALGROUPCO:Entity {Rank: "50", EconomicActorName: "CHINA PETROCHEMICAL GROUP CO", Country: "CN", NACEcode: "6511", NetworkPosition: "TT", CumulNetworkControlTM: "39.78", name: "CHINAPETROCHEMICALGROUPCO"})
-CREATE (FR:Country {name: FR})
-CREATE (CH:Country {name: CH})
-CREATE (NL:Country {name: NL})
-CREATE (CN:Country {name: CN})
-CREATE (CA:Country {name: CA})
-CREATE (DE:Country {name: DE})
-CREATE (JP:Country {name: JP})
-CREATE (IT:Country {name: IT})
-CREATE (US:Country {name: US})
-CREATE (GB:Country {name: GB})
+CREATE (FR:Country {name: "FR"})
+CREATE (CH:Country {name: "CH"})
+CREATE (NL:Country {name: "NL"})
+CREATE (CN:Country {name: "CN"})
+CREATE (CA:Country {name: "CA"})
+CREATE (DE:Country {name: "DE"})
+CREATE (JP:Country {name: "JP"})
+CREATE (IT:Country {name: "IT"})
+CREATE (US:Country {name: "US"})
+CREATE (GB:Country {name: "GB"})
 CREATE (BARCLAYSPLC)-[:LOCATION]->GB
 CREATE (CAPITALGROUPCOMPANIESINC)-[:LOCATION]->US
 CREATE (FMRCORP)-[:LOCATION]->US
@@ -116,6 +116,7 @@ CREATE (AFFILIATEDMANAGERSGROUP)-[:LOCATION]->US
 CREATE (RESONAHOLDINGS)-[:LOCATION]->JP
 CREATE (CAPITALGROUPINTERNATIONAL)-[:LOCATION]->US
 CREATE (CHINAPETROCHEMICALGROUPCO)-[:LOCATION]->CN
+
 RETURN *
 ----
 

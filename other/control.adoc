@@ -6,56 +6,56 @@ The control graph from http://arxiv.org/pdf/1107.5728.pdf[Table S1: Top 50 contr
 
 [source,cypher]
 ----
-CREATE (entity:BARCLAYS_PLC {'Country': 'GB', 'Cumul. network control (TM %)': '4.05', 'EconomicActorName': 'BARCLAYS PLC', 'Network position': 'SCC', 'Rank': '1', 'NACE code': '6512'})
-CREATE (entity:CAPITAL_GROUP_COMPANIES_INC {'Country': 'US', 'Cumul. network control (TM %)': '6.66', 'EconomicActorName': 'CAPITAL GROUP COMPANIES INC', 'Network position': 'IN', 'Rank': '2', 'NACE code': '6713'})
-CREATE (entity:FMR_CORP {'Country': 'US', 'Cumul. network control (TM %)': '8.94', 'EconomicActorName': 'FMR CORP', 'Network position': 'IN', 'Rank': '3', 'NACE code': '6713'})
+CREATE (entity:BARCLAYSPLC {'Country': 'GB', 'Cumul. network control (TM %)': '4.05', 'EconomicActorName': 'BARCLAYS PLC', 'Network position': 'SCC', 'Rank': '1', 'NACE code': '6512'})
+CREATE (entity:CAPITALGROUPCOMPANIESINC {'Country': 'US', 'Cumul. network control (TM %)': '6.66', 'EconomicActorName': 'CAPITAL GROUP COMPANIES INC', 'Network position': 'IN', 'Rank': '2', 'NACE code': '6713'})
+CREATE (entity:FMRCORP {'Country': 'US', 'Cumul. network control (TM %)': '8.94', 'EconomicActorName': 'FMR CORP', 'Network position': 'IN', 'Rank': '3', 'NACE code': '6713'})
 CREATE (entity:AXA {'Country': 'FR', 'Cumul. network control (TM %)': '11.21', 'EconomicActorName': 'AXA', 'Network position': 'SCC', 'Rank': '4', 'NACE code': '6712'})
-CREATE (entity:STATE_STREET_CORPORATION {'Country': 'US', 'Cumul. network control (TM %)': '13.02', 'EconomicActorName': 'STATE STREET CORPORATION', 'Network position': 'SCC', 'Rank': '5', 'NACE code': '6713'})
-CREATE (entity:JPMORGAN_CHASE {'Country': 'US', 'Cumul. network control (TM %)': '14.55', 'EconomicActorName': 'JPMORGAN CHASE', 'Network position': 'SCC', 'Rank': '6', 'NACE code': '6512'})
-CREATE (entity:LEGAL_GENERAL_GROUP_PLC {'Country': 'GB', 'Cumul. network control (TM %)': '16.02', 'EconomicActorName': 'LEGAL GENERAL GROUP PLC', 'Network position': 'SCC', 'Rank': '7', 'NACE code': '6603'})
-CREATE (entity:VANGUARD_GROUP_INC {'Country': 'US', 'Cumul. network control (TM %)': '17.25', 'EconomicActorName': 'VANGUARD GROUP INC', 'Network position': 'IN', 'Rank': '8', 'NACE code': '7415'})
-CREATE (entity:UBS_AG {'Country': 'CH', 'Cumul. network control (TM %)': '18.46', 'EconomicActorName': 'UBS AG', 'Network position': 'SCC', 'Rank': '9', 'NACE code': '6512'})
-CREATE (entity:MERRILL_LYNCH {'Country': 'US', 'Cumul. network control (TM %)': '19.45', 'EconomicActorName': 'MERRILL LYNCH', 'Network position': 'SCC', 'Rank': '10', 'NACE code': '6712'})
-CREATE (entity:WELLINGTON_MANAGEMENT_CO {'Country': 'US', 'Cumul. network control (TM %)': '20.33', 'EconomicActorName': 'WELLINGTON MANAGEMENT CO', 'Network position': 'IN', 'Rank': '11', 'NACE code': '6713'})
-CREATE (entity:DEUTSCHE_BANK_AG {'Country': 'DE', 'Cumul. network control (TM %)': '21.17', 'EconomicActorName': 'DEUTSCHE BANK AG', 'Network position': 'SCC', 'Rank': '12', 'NACE code': '6512'})
-CREATE (entity:FRANKLIN_RESOURCES_INC. {'Country': 'US', 'Cumul. network control (TM %)': '21.99', 'EconomicActorName': 'FRANKLIN RESOURCES INC.', 'Network position': 'SCC', 'Rank': '13', 'NACE code': '6512'})
-CREATE (entity:CREDIT_SUISSE_GROUP {'Country': 'CH', 'Cumul. network control (TM %)': '22.81', 'EconomicActorName': 'CREDIT SUISSE GROUP', 'Network position': 'SCC', 'Rank': '14', 'NACE code': '6512'})
-CREATE (entity:WALTON_ENTERPRISES_LLC {'Country': 'US', 'Cumul. network control (TM %)': '23.56', 'EconomicActorName': 'WALTON ENTERPRISES LLC', 'Network position': 'T&T', 'Rank': '15', 'NACE code': '2923'})
-CREATE (entity:BANK_OF_NEW_YORK_MELLON_CORP. {'Country': 'US', 'Cumul. network control (TM %)': '24.28', 'EconomicActorName': 'BANK OF NEW YORK MELLON CORP.', 'Network position': 'IN', 'Rank': '16', 'NACE code': '6512'})
+CREATE (entity:STATESTREETCORPORATION {'Country': 'US', 'Cumul. network control (TM %)': '13.02', 'EconomicActorName': 'STATE STREET CORPORATION', 'Network position': 'SCC', 'Rank': '5', 'NACE code': '6713'})
+CREATE (entity:JPMORGANCHASE {'Country': 'US', 'Cumul. network control (TM %)': '14.55', 'EconomicActorName': 'JPMORGAN CHASE', 'Network position': 'SCC', 'Rank': '6', 'NACE code': '6512'})
+CREATE (entity:LEGALGENERALGROUPPLC {'Country': 'GB', 'Cumul. network control (TM %)': '16.02', 'EconomicActorName': 'LEGAL GENERAL GROUP PLC', 'Network position': 'SCC', 'Rank': '7', 'NACE code': '6603'})
+CREATE (entity:VANGUARDGROUPINC {'Country': 'US', 'Cumul. network control (TM %)': '17.25', 'EconomicActorName': 'VANGUARD GROUP INC', 'Network position': 'IN', 'Rank': '8', 'NACE code': '7415'})
+CREATE (entity:UBSAG {'Country': 'CH', 'Cumul. network control (TM %)': '18.46', 'EconomicActorName': 'UBS AG', 'Network position': 'SCC', 'Rank': '9', 'NACE code': '6512'})
+CREATE (entity:MERRILLLYNCH {'Country': 'US', 'Cumul. network control (TM %)': '19.45', 'EconomicActorName': 'MERRILL LYNCH', 'Network position': 'SCC', 'Rank': '10', 'NACE code': '6712'})
+CREATE (entity:WELLINGTONMANAGEMENTCO {'Country': 'US', 'Cumul. network control (TM %)': '20.33', 'EconomicActorName': 'WELLINGTON MANAGEMENT CO', 'Network position': 'IN', 'Rank': '11', 'NACE code': '6713'})
+CREATE (entity:DEUTSCHEBANKAG {'Country': 'DE', 'Cumul. network control (TM %)': '21.17', 'EconomicActorName': 'DEUTSCHE BANK AG', 'Network position': 'SCC', 'Rank': '12', 'NACE code': '6512'})
+CREATE (entity:FRANKLINRESOURCESINC. {'Country': 'US', 'Cumul. network control (TM %)': '21.99', 'EconomicActorName': 'FRANKLIN RESOURCES INC.', 'Network position': 'SCC', 'Rank': '13', 'NACE code': '6512'})
+CREATE (entity:CREDITSUISSEGROUP {'Country': 'CH', 'Cumul. network control (TM %)': '22.81', 'EconomicActorName': 'CREDIT SUISSE GROUP', 'Network position': 'SCC', 'Rank': '14', 'NACE code': '6512'})
+CREATE (entity:WALTONENTERPRISESLLC {'Country': 'US', 'Cumul. network control (TM %)': '23.56', 'EconomicActorName': 'WALTON ENTERPRISES LLC', 'Network position': 'T&T', 'Rank': '15', 'NACE code': '2923'})
+CREATE (entity:BANKOFNEWYORKMELLONCORP. {'Country': 'US', 'Cumul. network control (TM %)': '24.28', 'EconomicActorName': 'BANK OF NEW YORK MELLON CORP.', 'Network position': 'IN', 'Rank': '16', 'NACE code': '6512'})
 CREATE (entity:NATIXIS {'Country': 'FR', 'Cumul. network control (TM %)': '24.98', 'EconomicActorName': 'NATIXIS', 'Network position': 'SCC', 'Rank': '17', 'NACE code': '6512'})
-CREATE (entity:GOLDMAN_SACHS_GROUP {'Country': 'US', 'Cumul. network control (TM %)': '25.64', 'EconomicActorName': 'GOLDMAN SACHS GROUP', 'Network position': 'SCC', 'Rank': '18', 'NACE code': '6712'})
-CREATE (entity:T_ROWE_PRICE_GROUP_INC. {'Country': 'US', 'Cumul. network control (TM %)': '26.29', 'EconomicActorName': 'T ROWE PRICE GROUP INC.', 'Network position': 'SCC', 'Rank': '19', 'NACE code': '6713'})
-CREATE (entity:LEGG_MASON {'Country': 'US', 'Cumul. network control (TM %)': '26.92', 'EconomicActorName': 'LEGG MASON', 'Network position': 'SCC', 'Rank': '20', 'NACE code': '6712'})
-CREATE (entity:MORGAN_STANLEY {'Country': 'US', 'Cumul. network control (TM %)': '27.56', 'EconomicActorName': 'MORGAN STANLEY', 'Network position': 'SCC', 'Rank': '21', 'NACE code': '6712'})
-CREATE (entity:MITSUBISHI_UFJ_FINANCIAL_GROUP {'Country': 'JP', 'Cumul. network control (TM %)': '28.16', 'EconomicActorName': 'MITSUBISHI UFJ FINANCIAL GROUP', 'Network position': 'SCC', 'Rank': '22', 'NACE code': '6512'})
-CREATE (entity:NORTHERN_TRUST_CORPORATION {'Country': 'US', 'Cumul. network control (TM %)': '28.72', 'EconomicActorName': 'NORTHERN TRUST CORPORATION', 'Network position': 'SCC', 'Rank': '23', 'NACE code': '6512'})
-CREATE (entity:SOCIETE_GENERALE {'Country': 'FR', 'Cumul. network control (TM %)': '29.26', 'EconomicActorName': 'SOCIETE GENERALE', 'Network position': 'SCC', 'Rank': '24', 'NACE code': '6512'})
-CREATE (entity:BANK_OF_AMERICA_CORPORATION {'Country': 'US', 'Cumul. network control (TM %)': '29.79', 'EconomicActorName': 'BANK OF AMERICA CORPORATION', 'Network position': 'SCC', 'Rank': '25', 'NACE code': '6512'})
-CREATE (entity:LLOYDS_TSB_GROUP_PLC {'Country': 'GB', 'Cumul. network control (TM %)': '30.30', 'EconomicActorName': 'LLOYDS TSB GROUP PLC', 'Network position': 'SCC', 'Rank': '26', 'NACE code': '6512'})
-CREATE (entity:INVESCO_PLC {'Country': 'GB', 'Cumul. network control (TM %)': '30.82', 'EconomicActorName': 'INVESCO PLC', 'Network position': 'SCC', 'Rank': '27', 'NACE code': '6523'})
-CREATE (entity:ALLIANZ_SE {'Country': 'DE', 'Cumul. network control (TM %)': '31.32', 'EconomicActorName': 'ALLIANZ SE', 'Network position': 'SCC', 'Rank': '28', 'NACE code': '7415'})
+CREATE (entity:GOLDMANSACHSGROUP {'Country': 'US', 'Cumul. network control (TM %)': '25.64', 'EconomicActorName': 'GOLDMAN SACHS GROUP', 'Network position': 'SCC', 'Rank': '18', 'NACE code': '6712'})
+CREATE (entity:TROWEPRICEGROUPINC. {'Country': 'US', 'Cumul. network control (TM %)': '26.29', 'EconomicActorName': 'T ROWE PRICE GROUP INC.', 'Network position': 'SCC', 'Rank': '19', 'NACE code': '6713'})
+CREATE (entity:LEGGMASON {'Country': 'US', 'Cumul. network control (TM %)': '26.92', 'EconomicActorName': 'LEGG MASON', 'Network position': 'SCC', 'Rank': '20', 'NACE code': '6712'})
+CREATE (entity:MORGANSTANLEY {'Country': 'US', 'Cumul. network control (TM %)': '27.56', 'EconomicActorName': 'MORGAN STANLEY', 'Network position': 'SCC', 'Rank': '21', 'NACE code': '6712'})
+CREATE (entity:MITSUBISHIUFJFINANCIALGROUP {'Country': 'JP', 'Cumul. network control (TM %)': '28.16', 'EconomicActorName': 'MITSUBISHI UFJ FINANCIAL GROUP', 'Network position': 'SCC', 'Rank': '22', 'NACE code': '6512'})
+CREATE (entity:NORTHERNTRUSTCORPORATION {'Country': 'US', 'Cumul. network control (TM %)': '28.72', 'EconomicActorName': 'NORTHERN TRUST CORPORATION', 'Network position': 'SCC', 'Rank': '23', 'NACE code': '6512'})
+CREATE (entity:SOCIETEGENERALE {'Country': 'FR', 'Cumul. network control (TM %)': '29.26', 'EconomicActorName': 'SOCIETE GENERALE', 'Network position': 'SCC', 'Rank': '24', 'NACE code': '6512'})
+CREATE (entity:BANKOFAMERICACORPORATION {'Country': 'US', 'Cumul. network control (TM %)': '29.79', 'EconomicActorName': 'BANK OF AMERICA CORPORATION', 'Network position': 'SCC', 'Rank': '25', 'NACE code': '6512'})
+CREATE (entity:LLOYDSTSBGROUPPLC {'Country': 'GB', 'Cumul. network control (TM %)': '30.30', 'EconomicActorName': 'LLOYDS TSB GROUP PLC', 'Network position': 'SCC', 'Rank': '26', 'NACE code': '6512'})
+CREATE (entity:INVESCOPLC {'Country': 'GB', 'Cumul. network control (TM %)': '30.82', 'EconomicActorName': 'INVESCO PLC', 'Network position': 'SCC', 'Rank': '27', 'NACE code': '6523'})
+CREATE (entity:ALLIANZSE {'Country': 'DE', 'Cumul. network control (TM %)': '31.32', 'EconomicActorName': 'ALLIANZ SE', 'Network position': 'SCC', 'Rank': '28', 'NACE code': '7415'})
 CREATE (entity:TIAA {'Country': 'US', 'Cumul. network control (TM %)': '32.24', 'EconomicActorName': 'TIAA', 'Network position': 'IN', 'Rank': '29', 'NACE code': '6601'})
-CREATE (entity:OLD_MUTUAL_PUBLIC_LIMITED_COMPANY {'Country': 'GB', 'Cumul. network control (TM %)': '32.69', 'EconomicActorName': 'OLD MUTUAL PUBLIC LIMITED COMPANY', 'Network position': 'SCC', 'Rank': '30', 'NACE code': '6601'})
-CREATE (entity:AVIVA_PLC {'Country': 'GB', 'Cumul. network control (TM %)': '33.14', 'EconomicActorName': 'AVIVA PLC', 'Network position': 'SCC', 'Rank': '31', 'NACE code': '6601'})
-CREATE (entity:SCHRODERS_PLC {'Country': 'GB', 'Cumul. network control (TM %)': '33.57', 'EconomicActorName': 'SCHRODERS PLC', 'Network position': 'SCC', 'Rank': '32', 'NACE code': '6712'})
-CREATE (entity:DODGE_COX {'Country': 'US', 'Cumul. network control (TM %)': '34.00', 'EconomicActorName': 'DODGE COX', 'Network position': 'IN', 'Rank': '33', 'NACE code': '7415'})
-CREATE (entity:LEHMAN_BROTHERS_HOLDINGS {'Country': 'US', 'Cumul. network control (TM %)': '34.43', 'EconomicActorName': 'LEHMAN BROTHERS HOLDINGS', 'Network position': 'SCC', 'Rank': '34', 'NACE code': '6712'})
-CREATE (entity:SUN_LIFE_FINANCIAL {'Country': 'CA', 'Cumul. network control (TM %)': '34.82', 'EconomicActorName': 'SUN LIFE FINANCIAL', 'Network position': 'SCC', 'Rank': '35', 'NACE code': '6601'})
-CREATE (entity:STANDARD_LIFE_PLC {'Country': 'GB', 'Cumul. network control (TM %)': '35.2', 'EconomicActorName': 'STANDARD LIFE PLC', 'Network position': 'SC', 'Rank': '36', 'NACE code': '6601'})
+CREATE (entity:OLDMUTUALPUBLICLIMITEDCOMPANY {'Country': 'GB', 'Cumul. network control (TM %)': '32.69', 'EconomicActorName': 'OLD MUTUAL PUBLIC LIMITED COMPANY', 'Network position': 'SCC', 'Rank': '30', 'NACE code': '6601'})
+CREATE (entity:AVIVAPLC {'Country': 'GB', 'Cumul. network control (TM %)': '33.14', 'EconomicActorName': 'AVIVA PLC', 'Network position': 'SCC', 'Rank': '31', 'NACE code': '6601'})
+CREATE (entity:SCHRODERSPLC {'Country': 'GB', 'Cumul. network control (TM %)': '33.57', 'EconomicActorName': 'SCHRODERS PLC', 'Network position': 'SCC', 'Rank': '32', 'NACE code': '6712'})
+CREATE (entity:DODGECOX {'Country': 'US', 'Cumul. network control (TM %)': '34.00', 'EconomicActorName': 'DODGE COX', 'Network position': 'IN', 'Rank': '33', 'NACE code': '7415'})
+CREATE (entity:LEHMANBROTHERSHOLDINGS {'Country': 'US', 'Cumul. network control (TM %)': '34.43', 'EconomicActorName': 'LEHMAN BROTHERS HOLDINGS', 'Network position': 'SCC', 'Rank': '34', 'NACE code': '6712'})
+CREATE (entity:SUNLIFEFINANCIAL {'Country': 'CA', 'Cumul. network control (TM %)': '34.82', 'EconomicActorName': 'SUN LIFE FINANCIAL', 'Network position': 'SCC', 'Rank': '35', 'NACE code': '6601'})
+CREATE (entity:STANDARDLIFEPLC {'Country': 'GB', 'Cumul. network control (TM %)': '35.2', 'EconomicActorName': 'STANDARD LIFE PLC', 'Network position': 'SC', 'Rank': '36', 'NACE code': '6601'})
 CREATE (entity:CNCE {'Country': 'FR', 'Cumul. network control (TM %)': '35.57', 'EconomicActorName': 'CNCE', 'Network position': 'SCC', 'Rank': '37', 'NACE code': '6512'})
-CREATE (entity:NOMURA_HOLDINGS {'Country': 'JP', 'Cumul. network control (TM %)': '35.92', 'EconomicActorName': 'NOMURA HOLDINGS', 'Network position': 'SCC', 'Rank': '38', 'NACE code': '6512'})
-CREATE (entity:THE_DEPOSITORY_TRUST_COMPANY {'Country': 'US', 'Cumul. network control (TM %)': '36.28', 'EconomicActorName': 'THE DEPOSITORY TRUST COMPANY', 'Network position': 'IN', 'Rank': '39', 'NACE code': '6512'})
-CREATE (entity:MASSACHUSETTS_MUTUAL_LIFE_INSUR {'Country': 'US', 'Cumul. network control (TM %)': '36.63', 'EconomicActorName': 'MASSACHUSETTS MUTUAL LIFE INSUR', 'Network position': 'IN', 'Rank': '40', 'NACE code': '6601'})
-CREATE (entity:ING_GROEP_NV {'Country': 'NL', 'Cumul. network control (TM %)': '36.96', 'EconomicActorName': 'ING GROEP NV', 'Network position': 'SCC', 'Rank': '41', 'NACE code': '6603'})
-CREATE (entity:BRANDES_INVESTMENT_PARTNERS {'Country': 'US', 'Cumul. network control (TM %)': '37.29', 'EconomicActorName': 'BRANDES INVESTMENT PARTNERS', 'Network position': 'IN', 'Rank': '42', 'NACE code': '6713'})
-CREATE (entity:UNICREDITO_ITALIANO_SPA {'Country': 'IT', 'Cumul. network control (TM %)': '37.61', 'EconomicActorName': 'UNICREDITO ITALIANO SPA', 'Network position': 'SCC', 'Rank': '43', 'NACE code': '6512'})
-CREATE (entity:DEPOSIT_INSURANCE_CORPORATION_OF_JP {'Country': 'JP', 'Cumul. network control (TM %)': '37.93', 'EconomicActorName': 'DEPOSIT INSURANCE CORPORATION OF JP', 'Network position': 'IN', 'Rank': '44', 'NACE code': '6511'})
-CREATE (entity:VERENIGING_AEGON {'Country': 'NL', 'Cumul. network control (TM %)': '38.25', 'EconomicActorName': 'VERENIGING AEGON', 'Network position': 'IN', 'Rank': '45', 'NACE code': '6512'})
-CREATE (entity:BNP_PARIBAS {'Country': 'FR', 'Cumul. network control (TM %)': '38.56', 'EconomicActorName': 'BNP PARIBAS', 'Network position': 'SCC', 'Rank': '46', 'NACE code': '6512'})
-CREATE (entity:AFFILIATED_MANAGERS_GROUP {'Country': 'US', 'Cumul. network control (TM %)': '38.88', 'EconomicActorName': 'AFFILIATED MANAGERS GROUP', 'Network position': 'SCC', 'Rank': '47', 'NACE code': '6713'})
-CREATE (entity:RESONA_HOLDINGS {'Country': 'JP', 'Cumul. network control (TM %)': '39.18', 'EconomicActorName': 'RESONA HOLDINGS', 'Network position': 'SCC', 'Rank': '48', 'NACE code': '6512'})
-CREATE (entity:CAPITAL_GROUP_INTERNATIONAL {'Country': 'US', 'Cumul. network control (TM %)': '39.48', 'EconomicActorName': 'CAPITAL GROUP INTERNATIONAL', 'Network position': 'IN', 'Rank': '49', 'NACE code': '7414'})
-CREATE (entity:CHINA_PETROCHEMICAL_GROUP_CO {'Country': 'CN', 'Cumul. network control (TM %)': '39.78', 'EconomicActorName': 'CHINA PETROCHEMICAL GROUP CO', 'Network position': 'TT', 'Rank': '50', 'NACE code': '6511'})
+CREATE (entity:NOMURAHOLDINGS {'Country': 'JP', 'Cumul. network control (TM %)': '35.92', 'EconomicActorName': 'NOMURA HOLDINGS', 'Network position': 'SCC', 'Rank': '38', 'NACE code': '6512'})
+CREATE (entity:THEDEPOSITORYTRUSTCOMPANY {'Country': 'US', 'Cumul. network control (TM %)': '36.28', 'EconomicActorName': 'THE DEPOSITORY TRUST COMPANY', 'Network position': 'IN', 'Rank': '39', 'NACE code': '6512'})
+CREATE (entity:MASSACHUSETTSMUTUALLIFEINSUR {'Country': 'US', 'Cumul. network control (TM %)': '36.63', 'EconomicActorName': 'MASSACHUSETTS MUTUAL LIFE INSUR', 'Network position': 'IN', 'Rank': '40', 'NACE code': '6601'})
+CREATE (entity:INGGROEPNV {'Country': 'NL', 'Cumul. network control (TM %)': '36.96', 'EconomicActorName': 'ING GROEP NV', 'Network position': 'SCC', 'Rank': '41', 'NACE code': '6603'})
+CREATE (entity:BRANDESINVESTMENTPARTNERS {'Country': 'US', 'Cumul. network control (TM %)': '37.29', 'EconomicActorName': 'BRANDES INVESTMENT PARTNERS', 'Network position': 'IN', 'Rank': '42', 'NACE code': '6713'})
+CREATE (entity:UNICREDITOITALIANOSPA {'Country': 'IT', 'Cumul. network control (TM %)': '37.61', 'EconomicActorName': 'UNICREDITO ITALIANO SPA', 'Network position': 'SCC', 'Rank': '43', 'NACE code': '6512'})
+CREATE (entity:DEPOSITINSURANCECORPORATIONOFJP {'Country': 'JP', 'Cumul. network control (TM %)': '37.93', 'EconomicActorName': 'DEPOSIT INSURANCE CORPORATION OF JP', 'Network position': 'IN', 'Rank': '44', 'NACE code': '6511'})
+CREATE (entity:VERENIGINGAEGON {'Country': 'NL', 'Cumul. network control (TM %)': '38.25', 'EconomicActorName': 'VERENIGING AEGON', 'Network position': 'IN', 'Rank': '45', 'NACE code': '6512'})
+CREATE (entity:BNPPARIBAS {'Country': 'FR', 'Cumul. network control (TM %)': '38.56', 'EconomicActorName': 'BNP PARIBAS', 'Network position': 'SCC', 'Rank': '46', 'NACE code': '6512'})
+CREATE (entity:AFFILIATEDMANAGERSGROUP {'Country': 'US', 'Cumul. network control (TM %)': '38.88', 'EconomicActorName': 'AFFILIATED MANAGERS GROUP', 'Network position': 'SCC', 'Rank': '47', 'NACE code': '6713'})
+CREATE (entity:RESONAHOLDINGS {'Country': 'JP', 'Cumul. network control (TM %)': '39.18', 'EconomicActorName': 'RESONA HOLDINGS', 'Network position': 'SCC', 'Rank': '48', 'NACE code': '6512'})
+CREATE (entity:CAPITALGROUPINTERNATIONAL {'Country': 'US', 'Cumul. network control (TM %)': '39.48', 'EconomicActorName': 'CAPITAL GROUP INTERNATIONAL', 'Network position': 'IN', 'Rank': '49', 'NACE code': '7414'})
+CREATE (entity:CHINAPETROCHEMICALGROUPCO {'Country': 'CN', 'Cumul. network control (TM %)': '39.78', 'EconomicActorName': 'CHINA PETROCHEMICAL GROUP CO', 'Network position': 'TT', 'Rank': '50', 'NACE code': '6511'})
 CREATE (country:FR)
 CREATE (country:CH)
 CREATE (country:NL)
@@ -66,56 +66,56 @@ CREATE (country:JP)
 CREATE (country:IT)
 CREATE (country:US)
 CREATE (country:GB)
-CREATE (BARCLAYS_PLC)-[:IS_IN]->GB
-CREATE (CAPITAL_GROUP_COMPANIES_INC)-[:IS_IN]->US
-CREATE (FMR_CORP)-[:IS_IN]->US
+CREATE (BARCLAYSPLC)-[:IS_IN]->GB
+CREATE (CAPITALGROUPCOMPANIESINC)-[:IS_IN]->US
+CREATE (FMRCORP)-[:IS_IN]->US
 CREATE (AXA)-[:IS_IN]->FR
-CREATE (STATE_STREET_CORPORATION)-[:IS_IN]->US
-CREATE (JPMORGAN_CHASE)-[:IS_IN]->US
-CREATE (LEGAL_GENERAL_GROUP_PLC)-[:IS_IN]->GB
-CREATE (VANGUARD_GROUP_INC)-[:IS_IN]->US
-CREATE (UBS_AG)-[:IS_IN]->CH
-CREATE (MERRILL_LYNCH)-[:IS_IN]->US
-CREATE (WELLINGTON_MANAGEMENT_CO)-[:IS_IN]->US
-CREATE (DEUTSCHE_BANK_AG)-[:IS_IN]->DE
-CREATE (FRANKLIN_RESOURCES_INC.)-[:IS_IN]->US
-CREATE (CREDIT_SUISSE_GROUP)-[:IS_IN]->CH
-CREATE (WALTON_ENTERPRISES_LLC)-[:IS_IN]->US
-CREATE (BANK_OF_NEW_YORK_MELLON_CORP.)-[:IS_IN]->US
+CREATE (STATESTREETCORPORATION)-[:IS_IN]->US
+CREATE (JPMORGANCHASE)-[:IS_IN]->US
+CREATE (LEGALGENERALGROUPPLC)-[:IS_IN]->GB
+CREATE (VANGUARDGROUPINC)-[:IS_IN]->US
+CREATE (UBSAG)-[:IS_IN]->CH
+CREATE (MERRILLLYNCH)-[:IS_IN]->US
+CREATE (WELLINGTONMANAGEMENTCO)-[:IS_IN]->US
+CREATE (DEUTSCHEBANKAG)-[:IS_IN]->DE
+CREATE (FRANKLINRESOURCESINC.)-[:IS_IN]->US
+CREATE (CREDITSUISSEGROUP)-[:IS_IN]->CH
+CREATE (WALTONENTERPRISESLLC)-[:IS_IN]->US
+CREATE (BANKOFNEWYORKMELLONCORP.)-[:IS_IN]->US
 CREATE (NATIXIS)-[:IS_IN]->FR
-CREATE (GOLDMAN_SACHS_GROUP)-[:IS_IN]->US
-CREATE (T_ROWE_PRICE_GROUP_INC.)-[:IS_IN]->US
-CREATE (LEGG_MASON)-[:IS_IN]->US
-CREATE (MORGAN_STANLEY)-[:IS_IN]->US
-CREATE (MITSUBISHI_UFJ_FINANCIAL_GROUP)-[:IS_IN]->JP
-CREATE (NORTHERN_TRUST_CORPORATION)-[:IS_IN]->US
-CREATE (SOCIETE_GENERALE)-[:IS_IN]->FR
-CREATE (BANK_OF_AMERICA_CORPORATION)-[:IS_IN]->US
-CREATE (LLOYDS_TSB_GROUP_PLC)-[:IS_IN]->GB
-CREATE (INVESCO_PLC)-[:IS_IN]->GB
-CREATE (ALLIANZ_SE)-[:IS_IN]->DE
+CREATE (GOLDMANSACHSGROUP)-[:IS_IN]->US
+CREATE (TROWEPRICEGROUPINC.)-[:IS_IN]->US
+CREATE (LEGGMASON)-[:IS_IN]->US
+CREATE (MORGANSTANLEY)-[:IS_IN]->US
+CREATE (MITSUBISHIUFJFINANCIALGROUP)-[:IS_IN]->JP
+CREATE (NORTHERNTRUSTCORPORATION)-[:IS_IN]->US
+CREATE (SOCIETEGENERALE)-[:IS_IN]->FR
+CREATE (BANKOFAMERICACORPORATION)-[:IS_IN]->US
+CREATE (LLOYDSTSBGROUPPLC)-[:IS_IN]->GB
+CREATE (INVESCOPLC)-[:IS_IN]->GB
+CREATE (ALLIANZSE)-[:IS_IN]->DE
 CREATE (TIAA)-[:IS_IN]->US
-CREATE (OLD_MUTUAL_PUBLIC_LIMITED_COMPANY)-[:IS_IN]->GB
-CREATE (AVIVA_PLC)-[:IS_IN]->GB
-CREATE (SCHRODERS_PLC)-[:IS_IN]->GB
-CREATE (DODGE_COX)-[:IS_IN]->US
-CREATE (LEHMAN_BROTHERS_HOLDINGS)-[:IS_IN]->US
-CREATE (SUN_LIFE_FINANCIAL)-[:IS_IN]->CA
-CREATE (STANDARD_LIFE_PLC)-[:IS_IN]->GB
+CREATE (OLDMUTUALPUBLICLIMITEDCOMPANY)-[:IS_IN]->GB
+CREATE (AVIVAPLC)-[:IS_IN]->GB
+CREATE (SCHRODERSPLC)-[:IS_IN]->GB
+CREATE (DODGECOX)-[:IS_IN]->US
+CREATE (LEHMANBROTHERSHOLDINGS)-[:IS_IN]->US
+CREATE (SUNLIFEFINANCIAL)-[:IS_IN]->CA
+CREATE (STANDARDLIFEPLC)-[:IS_IN]->GB
 CREATE (CNCE)-[:IS_IN]->FR
-CREATE (NOMURA_HOLDINGS)-[:IS_IN]->JP
-CREATE (THE_DEPOSITORY_TRUST_COMPANY)-[:IS_IN]->US
-CREATE (MASSACHUSETTS_MUTUAL_LIFE_INSUR)-[:IS_IN]->US
-CREATE (ING_GROEP_NV)-[:IS_IN]->NL
-CREATE (BRANDES_INVESTMENT_PARTNERS)-[:IS_IN]->US
-CREATE (UNICREDITO_ITALIANO_SPA)-[:IS_IN]->IT
-CREATE (DEPOSIT_INSURANCE_CORPORATION_OF_JP)-[:IS_IN]->JP
-CREATE (VERENIGING_AEGON)-[:IS_IN]->NL
-CREATE (BNP_PARIBAS)-[:IS_IN]->FR
-CREATE (AFFILIATED_MANAGERS_GROUP)-[:IS_IN]->US
-CREATE (RESONA_HOLDINGS)-[:IS_IN]->JP
-CREATE (CAPITAL_GROUP_INTERNATIONAL)-[:IS_IN]->US
-CREATE (CHINA_PETROCHEMICAL_GROUP_CO)-[:IS_IN]->CN
+CREATE (NOMURAHOLDINGS)-[:IS_IN]->JP
+CREATE (THEDEPOSITORYTRUSTCOMPANY)-[:IS_IN]->US
+CREATE (MASSACHUSETTSMUTUALLIFEINSUR)-[:IS_IN]->US
+CREATE (INGGROEPNV)-[:IS_IN]->NL
+CREATE (BRANDESINVESTMENTPARTNERS)-[:IS_IN]->US
+CREATE (UNICREDITOITALIANOSPA)-[:IS_IN]->IT
+CREATE (DEPOSITINSURANCECORPORATIONOFJP)-[:IS_IN]->JP
+CREATE (VERENIGINGAEGON)-[:IS_IN]->NL
+CREATE (BNPPARIBAS)-[:IS_IN]->FR
+CREATE (AFFILIATEDMANAGERSGROUP)-[:IS_IN]->US
+CREATE (RESONAHOLDINGS)-[:IS_IN]->JP
+CREATE (CAPITALGROUPINTERNATIONAL)-[:IS_IN]->US
+CREATE (CHINAPETROCHEMICALGROUPCO)-[:IS_IN]->CN
 
 RETURN *
 ----

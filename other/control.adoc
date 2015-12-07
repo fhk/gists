@@ -117,6 +117,9 @@ CREATE _57-[:`LINK_TO`]->_5
 CREATE _58-[:`LINK_TO`]->_40
 CREATE _59-[:`LINK_TO`]->_51
 
-MATCH (n)
-RETURN n
+RETURN *
 ----
+
+And render as a graph.
+
+//graph

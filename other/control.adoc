@@ -1,5 +1,7 @@
 = Control Network
 
+[source,cypher]
+----
 REATE (_0 {`Country`:"JP", `Cumul. network control (TM %)`:"39.18", `EconomicActorName`:"RESONA HOLDINGS", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"48"})
 CREATE (_1 {`Country`:"FR"})
 CREATE (_2 {`Country`:"US", `Cumul. network control (TM %)`:"6.66", `EconomicActorName`:"CAPITAL GROUP COMPANIES INC", `NACE code`:"6713", `Network position`:"IN", `Rank`:"2"})
@@ -110,3 +112,4 @@ CREATE _56-[:`LINK_TO`]->_51
 CREATE _57-[:`LINK_TO`]->_5
 CREATE _58-[:`LINK_TO`]->_40
 CREATE _59-[:`LINK_TO`]->_51
+----

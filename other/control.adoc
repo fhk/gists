@@ -1,5 +1,4 @@
-Control Network
-===
+=Control Network
 
 REATE (_0 {`Country`:"JP", `Cumul. network control (TM %)`:"39.18", `EconomicActorName`:"RESONA HOLDINGS", `NACE code`:"6512", `Network position`:"SCC", `Rank`:"48"})
 CREATE (_1 {`Country`:"FR"})
